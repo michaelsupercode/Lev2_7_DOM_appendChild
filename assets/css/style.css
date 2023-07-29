@@ -1,3 +1,7 @@
+body {
+background-color:aliceblue
+}
+
 .rechteck {
     height: 40px;
     width: 40px;
@@ -12,7 +16,7 @@
 .weiss {
     height: 40px;
     width: 40px;
-    color: #64b2cd;
+    color: #feffff;
     background-color: #da9833;
     border-radius: 50%;
     border: 2px solid #3c70a4;
@@ -21,7 +25,7 @@
     justify-content: center;
 }
 
-.umwickeln {
+.round {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     justify-content: center;
@@ -35,7 +39,12 @@ button {
     background-color: #64b2cd;
     color: #333;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 5vh;
     display: block;
     border: none;
+}
+
+h6 {
+margin: 9vh;
+text-align: center;
 }

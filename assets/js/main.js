@@ -1,5 +1,5 @@
 let btn = document.querySelector("button");
-let container = document.getElementsByClassName("umwickeln")[0];
+let container = document.getElementsByClassName("round")[0];
 
 let count = -1;
 
@@ -19,7 +19,7 @@ btn.addEventListener("click", () => {
             wrapper.className = 'rechteck';
         }
 
-        if (count >= 43) {
+        if (count >= 101) {
             clearInterval(interval);
         } else {
             container.appendChild(wrapper);
